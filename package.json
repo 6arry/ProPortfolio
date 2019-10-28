@@ -1,0 +1,22 @@
+{
+  "name": "proportfolio",
+  "version": "1.0.0",
+  "description": "Garry's Full Stack Developer Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-xander/ProPortfolio.git"
+  },
+  "author": "Garry Hudson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g-xander/ProPortfolio/issues"
+  },
+  "homepage": "https://github.com/g-xander/ProPortfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
