@@ -1,13 +1,16 @@
+// css variables
 $primary-color: #444;
 $secondary-color: #1aceee;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.8;
 
+// transitions
 @mixin easeOut {
   transition: all 0.5s ease-out;
 }
 
+// background image and overlay of color & opacity
 @mixin background {
   @if $show-home-image {
     &#bg-img {
